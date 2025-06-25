@@ -34,6 +34,11 @@
 
     --radius: 0.5rem;
 
+    /* Красные акценты для скидок */
+    --sale-red: 0 100% 50%;
+    --sale-red-dark: 0 80% 40%;
+    --sale-bg: 0 100% 97%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
