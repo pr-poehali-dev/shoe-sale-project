@@ -34,10 +34,13 @@
 
     --radius: 0.5rem;
 
-    /* Красные акценты для скидок */
-    --sale-red: 0 100% 50%;
-    --sale-red-dark: 0 80% 40%;
-    --sale-bg: 0 100% 97%;
+    /* Игровые акценты для читов */
+    --gaming-green: 120 100% 50%;
+    --gaming-green-dark: 120 80% 40%;
+    --gaming-green-bg: 120 100% 97%;
+    --gaming-purple: 270 100% 60%;
+    --gaming-blue: 220 100% 60%;
+    --gaming-orange: 30 100% 60%;
 
     --sidebar-background: 0 0% 98%;
 

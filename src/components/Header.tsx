@@ -10,64 +10,55 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Логотип */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">К</span>
+            <div className="w-8 h-8 bg-gradient-to-br from-gaming-green to-gaming-blue rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">K</span>
             </div>
-            <h1 className="text-xl font-bold text-gray-900">Кубомастер</h1>
+            <h1 className="text-xl font-bold text-gray-900">Kainer Client</h1>
           </div>
 
           {/* Навигация */}
           <nav className="hidden md:flex items-center space-x-8">
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
+              className="text-gray-700 hover:text-gaming-green transition-colors"
             >
-              Каталог
+              Функции
             </a>
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
+              className="text-gray-700 hover:text-gaming-green transition-colors"
             >
-              Мужская
+              Скачать
             </a>
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
+              className="text-gray-700 hover:text-gaming-green transition-colors"
             >
-              Женская
+              Поддержка
             </a>
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
+              className="text-gray-700 hover:text-gaming-green transition-colors"
             >
-              Детская
-            </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
-            >
-              Акции
+              Сообщество
             </a>
           </nav>
 
           {/* Иконки */}
           <div className="flex items-center space-x-4">
-            <button className="text-gray-700 hover:text-gray-900 transition-colors">
-              <Icon name="Search" size={20} />
+            <button className="text-gray-700 hover:text-gaming-green transition-colors">
+              <Icon name="Settings" size={20} />
             </button>
-            <button className="text-gray-700 hover:text-gray-900 transition-colors relative">
-              <Icon name="ShoppingCart" size={20} />
-              <span className="absolute -top-2 -right-2 bg-sale text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
-                2
-              </span>
+            <button className="text-gray-700 hover:text-gaming-green transition-colors relative">
+              <Icon name="Download" size={20} />
             </button>
-            <button className="text-gray-700 hover:text-gray-900 transition-colors">
+            <button className="text-gray-700 hover:text-gaming-green transition-colors">
               <Icon name="User" size={20} />
             </button>
 
             {/* Мобильное меню */}
             <button
-              className="md:hidden text-gray-700 hover:text-gray-900 transition-colors"
+              className="md:hidden text-gray-700 hover:text-gaming-green transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <Icon name="Menu" size={20} />
@@ -81,33 +72,27 @@ const Header = () => {
             <nav className="flex flex-col space-y-2">
               <a
                 href="#"
-                className="text-gray-700 hover:text-gray-900 transition-colors py-2"
+                className="text-gray-700 hover:text-gaming-green transition-colors py-2"
               >
-                Каталог
+                Функции
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-gray-900 transition-colors py-2"
+                className="text-gray-700 hover:text-gaming-green transition-colors py-2"
               >
-                Мужская
+                Скачать
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-gray-900 transition-colors py-2"
+                className="text-gray-700 hover:text-gaming-green transition-colors py-2"
               >
-                Женская
+                Поддержка
               </a>
               <a
                 href="#"
-                className="text-gray-700 hover:text-gray-900 transition-colors py-2"
+                className="text-gray-700 hover:text-gaming-green transition-colors py-2"
               >
-                Детская
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-gray-900 transition-colors py-2"
-              >
-                Акции
+                Сообщество
               </a>
             </nav>
           </div>

@@ -52,10 +52,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sale: {
-          DEFAULT: "hsl(var(--sale-red))",
-          dark: "hsl(var(--sale-red-dark))",
-          bg: "hsl(var(--sale-bg))",
+        gaming: {
+          green: "hsl(var(--gaming-green))",
+          "green-dark": "hsl(var(--gaming-green-dark))",
+          "green-bg": "hsl(var(--gaming-green-bg))",
+          purple: "hsl(var(--gaming-purple))",
+          blue: "hsl(var(--gaming-blue))",
+          orange: "hsl(var(--gaming-orange))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
